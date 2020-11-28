@@ -2,8 +2,8 @@ from .base import *
 
 try:
     from .local import *
+    live = False
 
-live = False
 except ImportError:
     live = True
 

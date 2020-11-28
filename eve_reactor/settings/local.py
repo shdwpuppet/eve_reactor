@@ -20,8 +20,12 @@ SHARE_URL = "http://127.0.0.1:8000"
 # Static assets
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
+# Vue project location
+FRONTEND_DIR = os.path.join(BASE_DIR, 'frontend')
+
+# Vue assets directory (assetsDir)
+STATICFILES_DIRS = [
+    os.path.join(FRONTEND_DIR, 'dist/static'),
+]
 # User uploads
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static', 'media')

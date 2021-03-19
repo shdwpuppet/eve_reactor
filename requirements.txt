@@ -44,7 +44,7 @@ sqlparse==0.4.1
 strict-rfc3339==0.7
 swagger-spec-validator==2.7.3
 typing-extensions==3.7.4.3
-urllib3==1.26.2
+urllib3==1.26.3
 vine==5.0.0
 wcwidth==0.2.5
 webcolors==1.11.1
